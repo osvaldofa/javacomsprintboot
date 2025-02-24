@@ -13,7 +13,7 @@ public class ExercicioAula5 {
         // Obtenha o nome, idade e nota do aluno.
         String nome = aluno.getNome();
         int idade = aluno.getIdade();
-        double nota = aluno.getNota();
+        double nota = aluno.getNota();        
 
         // Imprima o nome, idade e nota do aluno.
         System.out.println("Nome: " + nome);

@@ -1,5 +1,7 @@
 package Aula6;
 
+import Aula6.*;
+
 public class Exercicio2Aula6 {
     // O método deve criar uma variável booleana chamada entrarComNovosAlunos e atribuir o valor true.
     // O método deve criar um laço de repetição que se repita enquanto entrarComNovosAlunos for true.
@@ -25,12 +27,13 @@ public class Exercicio2Aula6 {
             System.out.println("Digite a nota do aluno:");
             estudante.setNota(Double.parseDouble(System.console().readLine()));
 
-            estudante.imprimir();
+            estudante.imprimir();            
 
             System.out.println("Deseja entrar com novos alunos? (sim/não)");
             String resposta = System.console().readLine();
 
-            if (resposta.equalsIgnoreCase("não") || resposta.equalsIgnoreCase("nao")) {
+            if (resposta.equalsIgnoreCase("não") 
+                || resposta.equalsIgnoreCase("nao")) {
                 entrarComNovosAlunos = false;
             }
         }

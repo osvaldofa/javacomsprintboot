@@ -2,9 +2,9 @@ package Aula6;
 
 public class Estudante {
     // Atributos para armazenar o nome, idade e nota do aluno.
-    String nome;
-    int idade;
-    double nota;
+    private String nome;
+    private int idade;
+    private double nota;
 
     // Métodos para alterar e obter o nome, idade e nota do aluno.
     public String getNome() {
@@ -36,10 +36,14 @@ public class Estudante {
         System.out.println("Idade: " + idade);
         System.out.println("Nota: " + nota);
 
+        System.out.println("Status: " + getSituacaoAluno());
+    }
+
+    private String getSituacaoAluno(){
         if (nota >= 7) {
-            System.out.println("Status: Aprovado");
+            return "Aprovado";
         } else {
-            System.out.println("Status: Reprovado");
+            return "Reprovado";
         }
     }
 }

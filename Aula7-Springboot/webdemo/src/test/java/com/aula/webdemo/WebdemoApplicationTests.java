@@ -1,10 +1,10 @@
-package com.demo.aula7;
+package com.aula.webdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Aula7ApplicationTests {
+class WebdemoApplicationTests {
 
 	@Test
 	void contextLoads() {

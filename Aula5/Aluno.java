@@ -3,9 +3,9 @@ package Aula5;
 public class Aluno {
 
     // Atributos para armazenar o nome, idade e nota do aluno.
-    String nome;
-    int idade;
-    double nota;
+    private String nome;
+    private int idade;
+    private double nota;
 
     // Métodos para alterar e obter o nome, idade e nota do aluno.
     public String getNome() {

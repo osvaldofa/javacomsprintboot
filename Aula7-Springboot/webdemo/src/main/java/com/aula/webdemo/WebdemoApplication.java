@@ -1,13 +1,12 @@
-package com.demo.aula7;
+package com.aula.webdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Aula7Application {
+public class WebdemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Aula7Application.class, args);
+		SpringApplication.run(WebdemoApplication.class, args);
 	}
-
 }
